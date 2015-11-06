@@ -1,0 +1,33 @@
+{
+  "name": "cyclejs-discovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node dev-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://YannickDot@github.com/YannickDot/cyclejs-discovery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannickDot/cyclejs-discovery/issues"
+  },
+  "homepage": "https://github.com/YannickDot/cyclejs-discovery#readme",
+  "dependencies": {
+    "@cycle/core": "^5.0.1",
+    "@cycle/dom": "^7.1.1",
+    "rx": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.1.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
